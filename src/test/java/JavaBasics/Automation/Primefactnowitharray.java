@@ -14,7 +14,7 @@ public class Primefactnowitharray {
 	
 	{
 		  List<Integer> f = new ArrayList<Integer>();
-		   for (int i=1;i<=number;i++)
+		   for (int i=2;i<=number;i++)
 	      {
 	         if((number%i == 0) )
 	        	 
@@ -27,23 +27,20 @@ public class Primefactnowitharray {
 		
 	}
 	
-public  void primefact()
+/*public  void primefact(ArrayList<Integer> prime)
 	{
 	
-		
-		//Factors array of 20: 1, 2, 4, 5, 10, 20 
+	//Factors array of 20: 2, 4, 5, 10, 20 
 		
 		{
-			int[] array = new int [5];
-		    Scanner in = new Scanner (System.in);
+			 List<Integer> primearray = new ArrayList<Integer>();
+		   
+//primearray=prime;
+//int n = primearray.length;
 
-		    System.out.println("Enter the elements of the array: ");
-		    for(int i=0; i<5; i++)
-		    {
-		        array[i] = in.nextInt();
-		    }
+		    
 		    //loop through the numbers one by one
-		    for(int i=0; i<array.length; i++){
+		   // for(int i=0; i<primearray.length; i++){
 		        boolean isPrime = true;
 
 		        //check to see if the numbers are prime
@@ -61,7 +58,7 @@ public  void primefact()
 		    }
 		}
 			 
-	}
+	}*/
 				
 			 
 	        
@@ -77,7 +74,7 @@ public  void primefact()
 		Primefactnowitharray obj = new Primefactnowitharray();
 		List<Integer> prime = new ArrayList<Integer>();
 		 prime = obj.factors(20);
-		 obj.primefact();
+		 //obj.primefact();
 		//system.print.outline("factors are" +prime);
 
 		//obj.primefact(prime);
