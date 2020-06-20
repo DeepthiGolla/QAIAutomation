@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="a" value="10"/>
+  <parameter name="b" value="20"/>
+  <parameter name="sum" value="30"/>
+  <test name="Sum(failed)">
+    <classes>
+      <class name="TestNgexamples.TestNgAdd">
+        <methods>
+          <include name="Add1"/>
+        </methods>
+      </class> <!-- TestNgexamples.TestNgAdd -->
+    </classes>
+  </test> <!-- Sum(failed) -->
+</suite> <!-- Failed suite [Suite] -->

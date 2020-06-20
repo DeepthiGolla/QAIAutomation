@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Basic url is launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Grid with greenbox url launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[redbox1 color is captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[b1 and b2 box colors are matched]]>
+    </line>
+    <line>
+      <![CDATA[Driver successfully navigated to drag and drop page]]>
+    </line>
+    <line>
+      <![CDATA[popup window page launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Popup page launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Launched back to window page from popup page successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cookie page launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[http://10.0.1.86/tatoc/endEnd! Obstacle Course is Complete!]]>
+    </line>
+    <line>
+      <![CDATA[ Menu page launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[SQL DB query gate page launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[XRAY]]>
+    </line>
+    <line>
+      <![CDATA[Query from con1 is successful]]>
+    </line>
+    <line>
+      <![CDATA[Query from con2 is successful]]>
+    </line>
+    <line>
+      <![CDATA[Query from con2 is successful]]>
+    </line>
+    <line>
+      <![CDATA[Video player page launched]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-02-19T03:58:00Z" name="Default suite" finished-at="2020-02-19T03:58:41Z" duration-ms="40969">
+    <groups>
+    </groups>
+    <test started-at="2020-02-19T03:58:00Z" name="Default test" finished-at="2020-02-19T03:58:41Z" duration-ms="40969">
+      <class name="TestNgexamples.testClass">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:00Z" name="setup" finished-at="2020-02-18T22:58:04Z" duration-ms="4598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC1_Basic()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:04Z" name="TC1_Basic" finished-at="2020-02-18T22:58:06Z" duration-ms="1184" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Basic url is launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC1_Basic -->
+        <test-method signature="TC2_Green()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:06Z" name="TC2_Green" finished-at="2020-02-18T22:58:08Z" depends-on-methods="TestNgexamples.testClass.TC1_Basic" duration-ms="2252" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Grid with greenbox url launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC2_Green -->
+        <test-method signature="TC3_Frame()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:08Z" name="TC3_Frame" finished-at="2020-02-18T22:58:08Z" depends-on-methods="TestNgexamples.testClass.TC2_Green" duration-ms="49" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[redbox1 color is captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC3_Frame -->
+        <test-method signature="TC4_Ftwo()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:08Z" name="TC4_Ftwo" finished-at="2020-02-18T22:58:23Z" depends-on-methods="TestNgexamples.testClass.TC3_Frame" duration-ms="14770" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[b1 and b2 box colors are matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC4_Ftwo -->
+        <test-method signature="TC5_Comndpro()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:23Z" name="TC5_Comndpro" finished-at="2020-02-18T22:58:23Z" depends-on-methods="TestNgexamples.testClass.TC4_Ftwo" duration-ms="604" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver successfully navigated to drag and drop page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC5_Comndpro -->
+        <test-method signature="TC6_dndd()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:23Z" name="TC6_dndd" finished-at="2020-02-18T22:58:24Z" depends-on-methods="TestNgexamples.testClass.TC5_Comndpro" duration-ms="1067" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[popup window page launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC6_dndd -->
+        <test-method signature="TC7_Popwin()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:24Z" name="TC7_Popwin" finished-at="2020-02-18T22:58:25Z" depends-on-methods="TestNgexamples.testClass.TC6_dndd" duration-ms="158" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Popup page launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC7_Popwin -->
+        <test-method signature="TC8_Childpop()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:25Z" name="TC8_Childpop" finished-at="2020-02-18T22:58:26Z" depends-on-methods="TestNgexamples.testClass.TC7_Popwin" duration-ms="1786" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched back to window page from popup page successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC8_Childpop -->
+        <test-method signature="TC9_Proceed()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:26Z" name="TC9_Proceed" finished-at="2020-02-18T22:58:27Z" depends-on-methods="TestNgexamples.testClass.TC8_Childpop" duration-ms="1116" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cookie page launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC9_Proceed -->
+        <test-method signature="TC10_Cookie()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:27Z" name="TC10_Cookie" finished-at="2020-02-18T22:58:28Z" depends-on-methods="TestNgexamples.testClass.TC9_Proceed" duration-ms="697" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[http://10.0.1.86/tatoc/endEnd! Obstacle Course is Complete!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC10_Cookie -->
+        <test-method signature="TC11_Advance()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:28Z" name="TC11_Advance" finished-at="2020-02-18T22:58:29Z" depends-on-methods="TestNgexamples.testClass.TC10_Cookie" duration-ms="929" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Menu page launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC11_Advance -->
+        <test-method signature="TC12_MenuItem()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:29Z" name="TC12_MenuItem" finished-at="2020-02-18T22:58:30Z" depends-on-methods="TestNgexamples.testClass.TC11_Advance" duration-ms="932" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SQL DB query gate page launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC12_MenuItem -->
+        <test-method signature="TC13_Sqldb()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:30Z" name="TC13_Sqldb" finished-at="2020-02-18T22:58:32Z" depends-on-methods="TestNgexamples.testClass.TC12_MenuItem" duration-ms="2434" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[XRAY]]>
+            </line>
+            <line>
+              <![CDATA[Query from con1 is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC13_Sqldb -->
+        <test-method signature="TC14_Con1query()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:32Z" name="TC14_Con1query" finished-at="2020-02-18T22:58:33Z" depends-on-methods="TestNgexamples.testClass.TC13_Sqldb" duration-ms="306" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Query from con2 is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC14_Con1query -->
+        <test-method signature="TC15_Con2query()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:33Z" name="TC15_Con2query" finished-at="2020-02-18T22:58:35Z" depends-on-methods="TestNgexamples.testClass.TC14_Con1query" duration-ms="2125" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Query from con2 is successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC15_Con2query -->
+        <test-method signature="TC16_Videocon()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:35Z" name="TC16_Videocon" finished-at="2020-02-18T22:58:41Z" depends-on-methods="TestNgexamples.testClass.TC15_Con2query" duration-ms="5800" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Video player page launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC16_Videocon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNgexamples.testClass@dd0c991]" started-at="2020-02-18T22:58:41Z" name="tearDown" finished-at="2020-02-18T22:58:41Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNgexamples.testClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

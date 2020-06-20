@@ -1,0 +1,271 @@
+<html>
+<head>
+<title>TestNG:  BasicAdvanecourse</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BasicAdvanecourse</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 26 21:21:33 EST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48622 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC10_Cookie()'><b>TC10_Cookie</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-1111700783" onClick='toggleBox("Output-1111700783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1111700783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1111700783">
+Generate Token generated successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC11_AdvC()'><b>TC11_AdvC</b><br>Test class: TestNgexamples.Basicadvantestng</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC12_Menu()'><b>TC12_Menu</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-753765835" onClick='toggleBox("Output-753765835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-753765835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-753765835">
+ Menu page launched successfully<br/>
+SQL DB query gate page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC13_DB()'><b>TC13_DB</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-122660092" onClick='toggleBox("Output-122660092", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-122660092" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-122660092">
+ROMEOSymbol captured successfully<br/>
+Connected to sql db successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC14_Con1()'><b>TC14_Con1</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-345537374" onClick='toggleBox("Output-345537374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-345537374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-345537374">
+1st column name captured<br/>
+id captured<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC15_Con2()'><b>TC15_Con2</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-1720244840" onClick='toggleBox("Output-1720244840", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1720244840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1720244840">
+Again connected to sql db successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC16_Val()'><b>TC16_Val</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-832376684" onClick='toggleBox("Output-832376684", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-832376684" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-832376684">
+Name retrived<br/>
+Passkey retrived<br/>
+Video player page launched<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC1_Basic()'><b>TC1_Basic</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-251690104" onClick='toggleBox("Output-251690104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-251690104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-251690104">
+Grid gate launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC2_Green()'><b>TC2_Green</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-336195715" onClick='toggleBox("Output-336195715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-336195715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-336195715">
+Frame dungeon is loaded successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC3_Frame()'><b>TC3_Frame</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-306007188" onClick='toggleBox("Output-306007188", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-306007188" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-306007188">
+box1 color is captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC4_Frametwo()'><b>TC4_Frametwo</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-1792977636" onClick='toggleBox("Output-1792977636", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1792977636" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1792977636">
+box1 and box2 colors are matched<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC5_Compare()'><b>TC5_Compare</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-1139809978" onClick='toggleBox("Output-1139809978", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1139809978" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1139809978">
+Driver successfully navigated to drag and drop page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC6_Dnd()'><b>TC6_Dnd</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-1271606161" onClick='toggleBox("Output-1271606161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1271606161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1271606161">
+popup window page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC7_Pop()'><b>TC7_Pop</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-1085074464" onClick='toggleBox("Output-1085074464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1085074464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1085074464">
+http://10.0.1.86/tatoc/basic/windows#Popup page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC8_Child()'><b>TC8_Child</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-531736244" onClick='toggleBox("Output-531736244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-531736244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-531736244">
+Popup - Basic Course - T.A.T.O.C<br/>
+ name entered successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+<tr>
+<td title='TestNgexamples.Basicadvantestng.TC9_Prowin()'><b>TC9_Prowin</b><br>Test class: TestNgexamples.Basicadvantestng<br/>
+<a href="#Output-1560688830" onClick='toggleBox("Output-1560688830", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1560688830" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1560688830">
+Switched back to 4th window successfully<br/>
+Cookie page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestNgexamples.Basicadvantestng@343570b7</td></tr>
+</table><p>
+</body>
+</html>

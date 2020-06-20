@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Gmail Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="BasicAdvanecourse(failed)">
+    <classes>
+      <class name="TestNgexamples.Basicadvantestng">
+        <methods>
+          <include name="TC10_Cookie"/>
+          <include name="TC3_Frame"/>
+          <include name="TC4_Frametwo"/>
+          <include name="TC15_Con2"/>
+          <include name="teardown"/>
+          <include name="TC8_Child"/>
+          <include name="setup"/>
+          <include name="TC5_Compare"/>
+          <include name="TC2_Green"/>
+          <include name="TC16_Val"/>
+          <include name="TC1_Basic"/>
+          <include name="TC9_Prowin"/>
+          <include name="TC14_Con1"/>
+          <include name="TC12_Menu"/>
+          <include name="TC7_Pop"/>
+          <include name="TC6_Dnd"/>
+          <include name="TC11_AdvC"/>
+          <include name="TC13_DB"/>
+        </methods>
+      </class> <!-- TestNgexamples.Basicadvantestng -->
+    </classes>
+  </test> <!-- BasicAdvanecourse(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

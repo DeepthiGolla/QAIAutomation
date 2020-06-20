@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Basic and Advanced Automation Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="BasicAdvanecourse(failed)">
+    <classes>
+      <class name="TestNgexamples.testClass">
+        <methods>
+          <include name="TC9_Proceed"/>
+          <include name="TC15_Con2query"/>
+          <include name="TC7_Popwin"/>
+          <include name="TC14_Con1query"/>
+          <include name="TC13_Sqldb"/>
+          <include name="TC4_Ftwo"/>
+          <include name="TC3_Frame"/>
+          <include name="TC10_Cookie"/>
+          <include name="TC12_MenuItem"/>
+          <include name="setup"/>
+          <include name="TC8_Childpop"/>
+          <include name="TC2_Green"/>
+          <include name="TC5_Comndpro"/>
+          <include name="TC6_dndd"/>
+          <include name="TC11_Advance"/>
+          <include name="TC1_Basic"/>
+          <include name="TC16_Videocon"/>
+        </methods>
+      </class> <!-- TestNgexamples.testClass -->
+    </classes>
+  </test> <!-- BasicAdvanecourse(failed) -->
+</suite> <!-- Failed suite [Basic and Advanced Automation Suite] -->

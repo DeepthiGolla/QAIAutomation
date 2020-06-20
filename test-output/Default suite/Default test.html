@@ -1,0 +1,273 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 18 22:58:00 EST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40969 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNgexamples.testClass.TC10_Cookie()'><b>TC10_Cookie</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-691779749" onClick='toggleBox("Output-691779749", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-691779749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-691779749">
+http://10.0.1.86/tatoc/endEnd! Obstacle Course is Complete!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC11_Advance()'><b>TC11_Advance</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-37841489" onClick='toggleBox("Output-37841489", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-37841489" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-37841489">
+ Menu page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC12_MenuItem()'><b>TC12_MenuItem</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1873121466" onClick='toggleBox("Output-1873121466", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1873121466" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1873121466">
+SQL DB query gate page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC13_Sqldb()'><b>TC13_Sqldb</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-100708535" onClick='toggleBox("Output-100708535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-100708535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-100708535">
+XRAY<br/>
+Query from con1 is successful<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC14_Con1query()'><b>TC14_Con1query</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1195064186" onClick='toggleBox("Output-1195064186", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1195064186" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1195064186">
+Query from con2 is successful<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC15_Con2query()'><b>TC15_Con2query</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1590792382" onClick='toggleBox("Output-1590792382", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1590792382" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1590792382">
+Query from con2 is successful<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC16_Videocon()'><b>TC16_Videocon</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-948395645" onClick='toggleBox("Output-948395645", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-948395645" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-948395645">
+Video player page launched<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC1_Basic()'><b>TC1_Basic</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1815370847" onClick='toggleBox("Output-1815370847", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1815370847" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1815370847">
+Basic url is launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC2_Green()'><b>TC2_Green</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-261650860" onClick='toggleBox("Output-261650860", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-261650860" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-261650860">
+Grid with greenbox url launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC3_Frame()'><b>TC3_Frame</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1605988985" onClick='toggleBox("Output-1605988985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1605988985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1605988985">
+redbox1 color is captured successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC4_Ftwo()'><b>TC4_Ftwo</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1134202713" onClick='toggleBox("Output-1134202713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1134202713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1134202713">
+b1 and b2 box colors are matched<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC5_Comndpro()'><b>TC5_Comndpro</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1636178473" onClick='toggleBox("Output-1636178473", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1636178473" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1636178473">
+Driver successfully navigated to drag and drop page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC6_dndd()'><b>TC6_dndd</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-749443480" onClick='toggleBox("Output-749443480", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749443480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749443480">
+popup window page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC7_Popwin()'><b>TC7_Popwin</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-796553753" onClick='toggleBox("Output-796553753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-796553753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-796553753">
+Popup page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC8_Childpop()'><b>TC8_Childpop</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1716164115" onClick='toggleBox("Output-1716164115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1716164115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1716164115">
+null<br/>
+Launched back to window page from popup page successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+<tr>
+<td title='TestNgexamples.testClass.TC9_Proceed()'><b>TC9_Proceed</b><br>Test class: TestNgexamples.testClass<br/>
+<a href="#Output-1360541835" onClick='toggleBox("Output-1360541835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1360541835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1360541835">
+Cookie page launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>TestNgexamples.testClass@dd0c991</td></tr>
+</table><p>
+</body>
+</html>
