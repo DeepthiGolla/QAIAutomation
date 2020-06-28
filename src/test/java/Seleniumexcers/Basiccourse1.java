@@ -1,7 +1,7 @@
 package Seleniumexcers;
 
-import org.apache.jasper.tagplugins.jstl.core.ForEach;
-import org.openqa.selenium.By;
+
+
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,8 +17,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 
-import java.util.Iterator;		
+import java.util.Iterator;
 import java.util.Set;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 
 public class Basiccourse1 {

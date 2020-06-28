@@ -15,17 +15,39 @@ For example: {3,67,9, 46, 55}
 Output: 3,9
  */
 	public static void main(String[] args)
-	
 	{
 		int []a={3,67,9, 46, 55};
-		Arrays.sort(a);
+		
+		//Arrays.sort(a);
+		
+		//for (int k = 0; k < a.length; k++) 
+		
+		//System.out.println(a[k]);
+		
 		for (int i = 0; i < a.length; i++) 
+			
 		{
-		   System.out.println(a[i]);
-		   
-		 }
-		   
-		   System.out.println(a[0]+ "," +a[1]);
-     }
-
+			
+			for (int j=0;j<a.length;j++)
+			{
+			
+			   int diff = a[j]-a[i]; 
+				if (i==j)
+					
+				{  
+					 
+					diff = a[i];
+					System.out.println(diff);
+					
+					
+					
+					
+		     	}
+				
+				
+			}
+			
+	   }
+		  
+}
 }

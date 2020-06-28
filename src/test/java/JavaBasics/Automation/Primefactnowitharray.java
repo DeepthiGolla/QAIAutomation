@@ -65,7 +65,7 @@ public static void main(String[] args) {
 		
 	  Primefactnowitharray obj = new Primefactnowitharray();
 		List<Integer> prime = new ArrayList<Integer>();
-		 prime = obj.factors(20);
+		 prime = obj.factors(36);
 		 obj.primefact(prime);
 
 	}
