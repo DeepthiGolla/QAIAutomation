@@ -10,7 +10,9 @@ public class Seriesdisplay {
 		{
 			for (int j=0;j<=i;j++)
 			
-				System.out.print( " " +j );
+				//System.out.print( " " + "*");  // to display in * pattern 
+			
+			System.out.print( " " + j);
 			System.out.println();
 			}
 		}

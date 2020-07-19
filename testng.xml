@@ -1,9 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
 <suite thread-count="1" verbose="1" name="Basic and Advanced Automation Suite" annotations="JDK" parallel="tests">
  <test name="BasicAdvanecourse">
+     <parameter name="a" value="5"/>  
      <classes>
     
-        <class name="TestNgexamples.testClass"/>
+<!--         <class name="TestNgexamples.testClass"/> -->
+        
+        
+<!--         command Shift C to comment in testng.xml -->
+        
+        
+        <class name="TestNgexamples.TestClassSec"/>
+        
      </classes>
    </test>
 </suite>
