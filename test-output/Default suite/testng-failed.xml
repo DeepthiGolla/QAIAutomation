@@ -3,11 +3,32 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgexamples.TestClassSec">
+      <class name="devStableex.DevstableTestclass">
         <methods>
-          <include name="primeFactnum"/>
+          <include name="setup"/>
+          <include name="TC16_enterproblems"/>
+          <include name="TC11_entermileage"/>
+          <include name="TC4_switchframe"/>
+          <include name="TC5_entername"/>
+          <include name="TC19_submitAct"/>
+          <include name="TC6_enterstation"/>
+          <include name="TC17_enterconclusions"/>
+          <include name="TC20_completeFinal"/>
+          <include name="TC18_addFile"/>
+          <include name="TC2_selectactiivty"/>
+          <include name="TC13_enterengine"/>
+          <include name="TC1_launchtestpage"/>
+          <include name="tearDown"/>
+          <include name="TC7_enterdate"/>
+          <include name="TC8_enteryear"/>
+          <include name="TC12_entervin"/>
+          <include name="TC14_enterengine2"/>
+          <include name="TC9_entermake"/>
+          <include name="TC10_entermodel"/>
+          <include name="TC15_enterstation2"/>
+          <include name="TC3_launchtake"/>
         </methods>
-      </class> <!-- TestNgexamples.TestClassSec -->
+      </class> <!-- devStableex.DevstableTestclass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

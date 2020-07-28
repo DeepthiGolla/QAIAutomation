@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestNgexamples.TestNgAnnotations"/>
+      <class name="TestNgexamples.DevstableTestclass"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

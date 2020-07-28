@@ -1,1 +1,3 @@
 URL=http://10.0.1.86/tatoc
+
+DevstableURL=https://dev-stable-cxp.cengage.info/activityservice/

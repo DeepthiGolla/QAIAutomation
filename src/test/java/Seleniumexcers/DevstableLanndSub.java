@@ -26,7 +26,7 @@ public class DevstableLanndSub {
 
 	static WebDriverWait wait ;
 	
-	
+	//you will see how to handle stale element exception, explicit wait , assertions 
 	
 	public static void cxpframe(int a, int b, String c) throws InterruptedException
 	{
